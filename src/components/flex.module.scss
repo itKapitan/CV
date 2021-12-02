@@ -1,0 +1,53 @@
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 auto;
+}
+.rowShrink {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+}
+.colShrink {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.start {
+  align-self: flex-start;
+}
+.center {
+  align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+.df {
+  display: flex;
+}
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 auto;
+}
+.aic {
+  align-items: center;
+}
+.jcc {
+  justify-content: center;
+}
