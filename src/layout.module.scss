@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
-
+@import './assets/styles/variables';
 
 * {
   margin: 0;
@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Rubik', sans-serif;
-  color: #3F3F3F;
+  color: $black900;
 }
 
 .wr {
@@ -17,16 +17,37 @@ body {
   margin: 0 auto;
 }
 
+h2 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  padding: 36px 0 20px 0;
+  text-align: center;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 54px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
 .side {
   width: 350px;
-  height: 2000px;
-  border: 2px solid #ff0000;
-  position: sticky;
-  bottom: 0;
+}
+.skills {
+  width: 350px;
+  flex-direction: column;
+  border-right: 1px solid $black100;
+  position: relative;
+  z-index: 1;
+  transition: all .2s ease;
+  bottom: 0px;
 }
 
 .content {
   width: calc(100% - 350px);
   padding: 45px;
-  height: 5000px;
 }

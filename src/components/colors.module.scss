@@ -1,15 +1,52 @@
-// COLORS
+@import "assets/styles/variables";
+
+// Colors
+.withe {
+  color: $withe;
+}
+
+.black100 {
+  color: $black100;
+}
+.black400 {
+  color: $black400;
+}
+.black900 {
+  color: $black900;
+}
+
+.primary {
+  color: $primary;
+}
+.secondary {
+  color: $secondary;
+}
+.tertiary {
+  color: $tertiary;
+}
 
 
-// Black
-$black400: #A5A5A5;
-$black900: #3F3F3F;
+// Background colors
+.bgWithe {
+  background: $withe;
+}
 
-// Primary
-$primary: #00A3FF;
+.bgBlack100 {
+  background: $black100;
+}
+.bgBlack400 {
+  background: $black400;
+}
+.bgBlack900 {
+  background: $black900;
+}
 
-// Secondary
-$secondary: #FE6F61;
-
-// Tertiary
-$tertiary: #FFC700;
+.bgPrimary {
+  background: $primary;
+}
+.bgSecondary {
+  background: $secondary;
+}
+.bgTertiary {
+  background: $tertiary;
+}
