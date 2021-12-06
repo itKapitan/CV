@@ -1,0 +1,161 @@
+{
+  "skills": [
+    {
+      "title": "Design",
+      "main": [
+        {
+          "title": "Figma",
+          "level": 10
+        },
+        {
+          "title": "Photoshop",
+          "level": 10
+        },
+        {
+          "title": "Illustrator",
+          "level": 10
+        },
+        {
+          "title": "After Effects",
+          "level": 8
+        },
+        {
+          "title": "Premier Pro",
+          "level": 8
+        },
+        {
+          "title": "Blender",
+          "level": 5
+        }
+      ],
+      "extra": [
+        {
+          "title": "Google Material Design"
+        },
+        {
+          "title": "Apple HIG"
+        },
+        {
+          "title": "Atomic design"
+        },
+        {
+          "title": "Figma smart animate"
+        },
+        {
+          "title": "After FX Animation"
+        },
+        {
+          "title": "UI/UX adaptive web"
+        },
+        {
+          "title": "UI/UX native app"
+        },
+        {
+          "title": "Creating icons"
+        }
+      ]
+    },
+    {
+      "title": "Front-end",
+      "main": [
+        {
+          "title": "HTML",
+          "level": 10
+        },
+        {
+          "title": "CSS",
+          "level": 10
+        },
+        {
+          "title": "jQuery",
+          "level": 9
+        },
+        {
+          "title": "React",
+          "level": 7
+        },
+        {
+          "title": "Redux",
+          "level": 5
+        },
+        {
+          "title": "JavaScript",
+          "level": 4
+        },
+        {
+          "title": "Vue",
+          "level": 3
+        }
+      ],
+      "extra": [
+        {
+          "title": "FlexBox"
+        },
+        {
+          "title": "Greed"
+        },
+        {
+          "title": "SVG"
+        },
+        {
+          "title": "Adaptive"
+        },
+        {
+          "title": "BEM"
+        },
+        {
+          "title": "SASS"
+        },
+        {
+          "title": "LESS"
+        }
+      ]
+    },
+    {
+      "title": "Languages",
+      "main": [
+        {
+          "title": [
+            {
+              "en": "Russian"
+            },
+            {
+              "ru": "Русский"
+            }
+          ],
+          "level": 10
+        },
+        {
+          "title": [
+            {
+              "en": "Ukrainian"
+            },
+            {
+              "ru": "Украинский"
+            }
+          ],
+          "level": 10
+        },
+        {
+          "title": [
+            {
+              "en": "English"
+            },
+            {
+              "ru": "Английский"
+            }
+          ],
+          "level": 4,
+          "description": [
+            {
+              "en": "Starting level B1"
+            },
+            {
+              "ru": "Начал уровень B1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
