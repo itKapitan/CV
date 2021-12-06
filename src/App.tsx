@@ -1,4 +1,5 @@
 import React from 'react';
+import data from './store/db.json'
 import cn from 'classnames';
 import l from './layout.module.scss';
 import {colors, flex, SkillLevel} from './components';
@@ -9,8 +10,8 @@ function App()  {
         <div className={cn(l.side)}>
             <div className={cn(l.skills)}>
                 <h2>Professional skills</h2>
-                <h3 className={cn(colors.withe, colors.bgSecondary)}>Design</h3>
-                <SkillLevel type={'primary'} />
+                <h3 className={cn(colors.withe, colors.bgSecondary)}>{data.skills[0].title}</h3>
+                <SkillLevel type='primary' />
             </div>
         </div>
         <div className={cn(l.content)}>
